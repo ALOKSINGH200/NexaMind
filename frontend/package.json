@@ -1,0 +1,22 @@
+{
+  "name": "NexaMind-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "^1.31.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-dropzone": "^20.1.0",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^16.1.1",
+    "remark-gfm": "^4.0.1",
+    "vite": "latest"
+  }
+}

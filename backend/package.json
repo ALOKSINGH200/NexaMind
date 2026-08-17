@@ -1,0 +1,25 @@
+{
+  "name": "NexaMind-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.9",
+    "ai": "latest",
+    "chromadb": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "mammoth": "latest",
+    "morgan": "latest",
+    "multer": "latest",
+    "ollama-ai-provider": "latest",
+    "pdf-parse": "latest",
+    "pdf2json": "latest",
+    "uuid": "latest"
+  }
+}
