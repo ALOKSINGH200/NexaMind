@@ -166,15 +166,15 @@ app.use(
 
 app.listen(
   PORT,
-  '127.0.0.1',
+  '0.0.0.0',
   () => {
 
     console.log(
-      '\n🧠 KnowledgeVault Backend'
+      '\n🧠 NexaMind Backend'
     );
 
     console.log(
-      `   → http://127.0.0.1:${PORT}`
+      `   → http://0.0.0.0:${PORT}`
     );
 
     console.log(
